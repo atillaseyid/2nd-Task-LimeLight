@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+    margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background: #030303;
+  color: blue;
+}
+.background {
+  background-image: linear-gradient(to bottom,transparent 40%,rgba(0,0,0,0.95) 70%, #f7e9e9), url("https://wallpaperaccess.com/full/3310638.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: top;
+  z-index: 1;
+  position: relative;
+  box-shadow: 0 25px 25px limegreen;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 100;
+  font-family: 'Bradley Hand', cursive;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 3rem;
+  color: limegreen;
+  text-shadow: 1px 1px 2.5px;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.layer-1 {
+  background-image: linear-gradient(to bottom,transparent 50%,rgba(0, 0, 0,0.85) 70%, #8de043), url("https://wallpaperaccess.com/full/3310638.jpg");
+  z-index: 80;
+}
+.layer-2 {
+  background-image: linear-gradient(to bottom,transparent 30%,rgba(0,0,0,0.9) 80%, #020202), url("https://wallpaperaccess.com/full/3310638.jpg");
+  z-index: 80;
+}
+
+.content {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  position: relative;
+  background-image: url("https://www.seekpng.com/png/detail/59-590097_nutritional-content-green-transparent-background-png.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.text {
+  padding: 4rem 10rem 20rem 40rem;
+}
+.fruit {
+  background-image: url("https://cdn.pngsumo.com/mix-fruits-png-transparent-background-free-download-searchpngcom-fruit-no-background-1024_427.png");
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-position: right;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.fruits {
+  position: absolute;
+  z-index: 1000;
+}
+.apple {
+ width: 100px;
+ height: 100px;
+ left: 10%;
+ top: 50%;
+}
+.pear {
+  width: 100px;
+  height: 100px;
+  left: 20%;
+  top: 30%;
+}
+.banana {
+  width: 80px;
+  height: 80px;
+  left: 10%;
+  bottom: 20%;
+}
+.kiwi {
+  width: 130px;
+  height: 130px;
+  bottom: 0;
+  left: 31%;
+}
+.lemon {
+  width: 90px;
+  height: 90px;
+  bottom: 0;
+  left: 2.5%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.mango {
+  width: 70px;
+  height: 70px;
+  bottom: 30%;
+  left: 20%;
+}
+.peach {
+  width: 120px;
+  height: 120px;
+  bottom: 35%;
+  left: 15%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.apricote {
+  width: 90px;
+  height: 90px;
+  bottom: 25%;
+  left: 25%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.pomegranate {
+  width: 110px;
+  height: 110px;
+  bottom: 35%;
+  left: 32%;
+}
+
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+  .fruits, .fruit {
+    display: none;
+  }
+  .text {
+    padding: 0 3rem 5rem 3rem;
+  }
+}
