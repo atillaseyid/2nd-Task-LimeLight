@@ -62,7 +62,7 @@ h1 {
   padding: 4rem 10rem 20rem 40rem;
 }
 .fruit {
-  background-image: url("https://cdn.pngsumo.com/mix-fruits-png-transparent-background-free-download-searchpngcom-fruit-no-background-1024_427.png");
+  background-image: url("");
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -79,18 +79,18 @@ h1 {
 .apple {
  width: 100px;
  height: 100px;
- left: 10%;
+ left: 3%;
  top: 50%;
 }
 .pear {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   left: 20%;
   top: 30%;
 }
 .banana {
-  width: 80px;
-  height: 80px;
+  width: 85px;
+  height: 85px;
   left: 10%;
   bottom: 20%;
 }
@@ -112,7 +112,7 @@ h1 {
   width: 70px;
   height: 70px;
   bottom: 30%;
-  left: 20%;
+  left: 16%;
 }
 .peach {
   width: 120px;
@@ -125,16 +125,17 @@ h1 {
 .apricote {
   width: 90px;
   height: 90px;
+  top: 15%;
   bottom: 25%;
   left: 25%;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 .pomegranate {
-  width: 110px;
-  height: 110px;
+  width: 120px;
+  height: 120px;
   bottom: 35%;
-  left: 32%;
+  left: 35%;
 }
 
 @media only screen and (max-width: 1200px) {
